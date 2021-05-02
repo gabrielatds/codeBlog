@@ -16,7 +16,7 @@ public class seedingService {
     @Autowired
     CodeBlogRepository codeBlogRepository;
 
-    @PostConstruct
+    //@PostConstruct
     public  void seed(){
         List<Post> postList = new ArrayList<>();
 
